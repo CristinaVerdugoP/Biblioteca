@@ -1,0 +1,135 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .boton3{
+    color: white;
+    background-color: rgba(22, 102, 206, 0.801);
+    padding: 5px 20px 5px 20px;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px black;
+}  
+.row{
+    display: flex;
+}
+
+.col, .col-2, .col-3{
+    margin: 10px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    height: 100px;
+    width: 1340px;
+    background-color: rgb(100, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+    margin-left: 40px;
+    font-size: 40px;
+    color: white;
+
+}
+.nav-links{
+    width: 50%;
+    margin-right: 20px ;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /*Para que no aparezcan los circulitos*/
+}
+.nav a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none; /*Para quitarle el subrayado*/
+}
+
+.btn{
+    width: 100px;
+    height:30px ;
+    background-color: rgba(0, 217, 255, 0.822);
+    box-shadow: 5px 5px black;
+    font-size: 13px;
+    border: black solid;
+}
+h1 {
+    color: white;
+    font-family: cursive;
+    background-color: black;
+  }
+.holi{
+    color: cyan;
+}
+
+
+.contenedor{
+    height: 370px;
+    width: 750px;
+    border: silver solid;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bloque1{
+    height: 100px;
+    width: 750px;
+    background-color: cadetblue;
+}
+
+.img_usuario{
+    height: 95px;
+    width: 95px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.bloque2{
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_mapa{
+    height: 25px; width: 20px;
+    margin-right:8px ;
+}
+.img_tuerca{
+    height: 20px; width: 20px;
+}
+
+.editar{
+    font-size: 20px;
+    color:  rgb(26, 112, 192);
+}
